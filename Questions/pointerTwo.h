@@ -9,6 +9,6 @@ int fun(int t[]) {
 }
 
 int mainMethodTwo() {
-	cout << "main method 2";
+	cout << "main method 2 changed on laptop";
 	return 0;
 }
