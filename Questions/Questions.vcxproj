@@ -142,6 +142,7 @@
     <ClCompile Include="Questions.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="header7.h" />
     <ClInclude Include="pointer5.h" />
     <ClInclude Include="pointer6.h" />
     <ClInclude Include="pointerFour.h" />

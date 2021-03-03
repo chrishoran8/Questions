@@ -5,6 +5,7 @@
 #include "pointerFour.h"
 #include "pointer5.h"
 #include "pointer6.h"
+#include "header7.h"
 using namespace std;
 
 
@@ -18,6 +19,7 @@ int main() {
     //mainMethodSix();
     //mainMethodThreeOne();
     //mainMethodThreeTwo();
-    mainMethodThreeThree();
+    //mainMethodThreeThree();
+    mainMethod7();
     return 0;
 }
