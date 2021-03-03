@@ -142,7 +142,11 @@
     <ClCompile Include="Questions.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="pointer5.h" />
+    <ClInclude Include="pointer6.h" />
+    <ClInclude Include="pointerFour.h" />
     <ClInclude Include="pointerOne.h" />
+    <ClInclude Include="pointerThree.h" />
     <ClInclude Include="pointerTwo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
