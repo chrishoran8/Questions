@@ -4,7 +4,7 @@
 using namespace std;
 
 int f71(int* a) { //takes in the pointer equal to 2     
-    return *a; //returns the value of the pointer....which is 2
+    return ++*a; //returns the value of the pointer....which is 2
 }
 int* f72(int* a) {  //takes in a pointer of equal to 2
     return a; //returns the memory location of the above

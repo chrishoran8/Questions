@@ -14,12 +14,14 @@ int f3(int* a) { //takes in pointer
 
 void mainMethodFour() {
     int value = 2;
-    cout << f1(value); //pass by value, value remains the same but outputs 3
-    cout << "a" << value << endl;
+    cout << f1(f2(f3(value)));
 
-    cout << f2(value); //pass by reference, value increases by one to 3, outputs 3
-    cout << "b" << value << endl;
+    //cout << f1(value); //pass by value, value remains the same but outputs 3
+    //cout << "a" << value << endl;
 
-    cout << f3(&value); //pass value memory address, 
-    cout << "c" << value << endl;
+    //cout << f2(value); //pass by reference, value increases by one to 3, outputs 3
+    //cout << "b" << value << endl;
+
+    //cout << f3(&value); //pass value memory address, 
+    //cout << "c" << value << endl;
 }
